@@ -11,7 +11,7 @@ public class RandomIntGenerator {
 
     public RandomIntGenerator() {
     }
-
+    // 产生随机数据，输入为最大值和数量
     public String generateNums(Integer digitmax, Integer numbersOfNeed) {
 
         if (digitmax < numbersOfNeed) {
